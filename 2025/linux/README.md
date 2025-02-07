@@ -21,6 +21,7 @@ Imagine you're managing a **Linux-based production server** and need to ensure t
 ---
 
 ### **2️⃣ File & Directory Permissions**
+Update: sudo chmod 240 project_notes.txt
 - **Task:**  
   - Create `/devops_workspace` and a file `project_notes.txt`.
   - Set permissions:
@@ -36,8 +37,12 @@ Logs are crucial in DevOps! You’ll analyze logs using the **Linux_2k.log** fil
   - **Download the log file** from the repository.
   - **Extract insights using commands:**
     - Use `grep` to find all occurrences of the word **"error"**.
+    Ans:- grep -i "error" Linux_2k.log
+    
     - Use `awk` to extract **timestamps and log levels**.
+    Ans: awk '{print $1, $2, $3, $6,$7}' Linux_2k.log
     - Use `sed` to replace all IP addresses with **[REDACTED]** for security.
+    Ans: sed -E 's/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/[REDACTED]/g' Linux_2k.log
   - **Bonus:** Find the most frequent log entry using `awk` or `sort | uniq -c | sort -nr | head -10`.
 
 ---
