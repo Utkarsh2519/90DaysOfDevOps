@@ -30,6 +30,7 @@ Welcome to Week 1 of the **90 Days of DevOps - 2025 Edition**! This week's focus
 ---
 
 ## How to Submit
+Update LinkedIn Post: https://www.linkedin.com/feed/update/urn:li:activity:7291147043815751682/
 - Create a LinkedIn post summarizing your Week 1 Networking Challenge experience.
 - Include the link to your blog, GitHub page, or README in the comments of your post.
 - **Tip:** Use an eye-catching image or flow diagram relevant to networking concepts for better reach and engagement.
